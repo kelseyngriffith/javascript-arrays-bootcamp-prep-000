@@ -5,7 +5,8 @@ var chocolateBars = [
   "skittles"
 ]
 var candyString = "foo";
+
 function addElementToBeginningOfArray(chocolateBars, candyString) {
-  return [candyString, ...chocolateBars]
+  return [candyString, ...chocolateBars];
 }
-console.log(chocolateBars);
+
