@@ -5,9 +5,9 @@ var chocolateBars = [
   "skittles"
 ]
 function addElementToBeginningOfArray (array, element) {
-  return chocolateBars.unshift('snickers')
+  return chocolateBars.unshift('snickers');
 }
 function destructivelyAddElementToBeginningOfArray() {
-
+  return chocolateBars.ushift('snickers');
 }
 function addElementToEndOfArray (array, element)
