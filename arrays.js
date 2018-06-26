@@ -23,3 +23,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, candyString) {
 function accessElementInArray(chocolateBars, candyStringIndex) {
   return chocolateBars[2]
 }
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
+  chocolateBars.shift();
+  return chocolateBars;
+}
